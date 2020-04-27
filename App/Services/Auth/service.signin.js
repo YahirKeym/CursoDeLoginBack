@@ -4,11 +4,13 @@ const palabraSecreta = 'gatito';
 exports = (module.exports = {});
 let databaseUsers = {
     'Yahir' : {
+        Id: 1,
         Password: 'YahirPassword',
         Correo: 'yahir@correo.com',
         Nombre: 'Yahir Axel Keymurth'
     },
     'Jefferson' : {
+        Id: 2,
         Password: 'JeffersonPassword',
         Correo: 'jefferson@correo.com',
         Nombre: 'Jefferson Leon'
